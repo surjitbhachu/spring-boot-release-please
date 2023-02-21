@@ -8,6 +8,9 @@ public class SpringReleaseApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringReleaseApplication.class, args);
+
+		// here is a change to the app
+		boolean change = true;
 	}
 
 }
